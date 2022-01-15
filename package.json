@@ -1,6 +1,6 @@
 {
   "name": "build-rest-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Build a simple REST API with NodeJS and Express, with Typescript support baked in, all with one command!",
   "main": "index.js",
   "dependencies": {
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/dialto1/build-rest-api#readme",
   "keywords": [
     "typescript",
-    "REST"
+    "REST",
+    "express"
   ]
 }
