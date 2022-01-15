@@ -16,8 +16,6 @@ const main = async () => {
     await mkdir(dir);
   }
 
-  log("\n💪 Creating Typescript Express REST server...");
-
   // Create package.json
   log("\n📃 Creating package.json...");
   await asyncExec(`cd ${dir} && npm init -y`);

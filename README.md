@@ -19,7 +19,7 @@ cd [DIR]
 npm run dev
 ```
 
-This server uses the `concurrently` package to run the typescript watcher and the nodemon server at the same time, essentially providing hot reloading.
+This server uses the `concurrently` package to run the typescript watcher and the nodemon server at the same time.
 
 ## Output
 
@@ -41,7 +41,7 @@ This is what the package generates for you:
 |   │   index.js
 ```
 
-This is what the ```index.ts``` file looks like:
+This is what the `index.ts` file looks like:
 
 ```ts
 import express from "express";
@@ -95,5 +95,3 @@ app.listen(process.env.PORT, () => {
   );
 });
 ```
-
-### Happy coding!

@@ -1,0 +1,27 @@
+{
+  "name": "build-rest-api",
+  "version": "1.0.0",
+  "description": "Build a simple REST API with NodeJS and Express, with Typescript support baked in, all with one command!",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dialto1/build-rest-api.git"
+  },
+  "author": "Raj Pulapakura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dialto1/build-rest-api/issues"
+  },
+  "homepage": "https://github.com/dialto1/build-rest-api#readme",
+  "keywords": [
+    "typescript",
+    "REST"
+  ]
+}
