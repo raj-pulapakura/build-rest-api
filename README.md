@@ -9,13 +9,13 @@ A package that generates a simple Typescript Express REST server.
 Run the following command to generate the server:
 
 ```
-npx build-rest-api [DIR]
+npx build-rest-api <dirname>
 ```
 
 And run these commands to start the server:
 
 ```
-cd [DIR]
+cd <dirname>
 npm run dev
 ```
 
@@ -26,7 +26,7 @@ This server uses the `concurrently` package to run the typescript watcher and th
 This is what the package generates for you:
 
 ```
-[DIR]
+<dirname>
 │   .env
 │   package-lock.json
 |   package.json
