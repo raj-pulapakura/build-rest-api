@@ -1,4 +1,4 @@
-# create-ts-server
+# build-rest-api
 
 ## Description
 
@@ -9,7 +9,7 @@ A package that generates a simple Typescript Express REST server.
 Run the following command to generate the server:
 
 ```
-npx @eagleapps/create-ts-server [DIR]
+npx build-rest-api [DIR]
 ```
 
 And run these commands to start the server:
